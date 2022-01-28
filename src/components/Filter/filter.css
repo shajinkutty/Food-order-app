@@ -1,0 +1,27 @@
+.filter-container {
+  margin: 0.8rem 0;
+  padding: 1rem;
+}
+.filter-container ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.filter-container ul li {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: 0;
+}
+.filter-container ul .selected {
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (max-device-width: 400px) {
+  .filter-container ul {
+    gap: 0.7rem;
+  }
+}

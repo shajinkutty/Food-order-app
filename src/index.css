@@ -1,13 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.viewport {
+  min-height: calc(100vh - 100px);
+}
+.b {
+  border: 1px solid red;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.button-primary {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+@media screen and (max-device-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 0.5rem;
+  }
 }

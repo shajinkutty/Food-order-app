@@ -1,0 +1,94 @@
+.profile-container {
+  margin-top: 6rem;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+.profile-container .user-details {
+  padding: 2rem;
+  border: 1px solid #d8d8d8;
+  width: 350px;
+  border-radius: 10px;
+}
+.profile-container .user-details .details_box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.7rem;
+}
+.profile-container .user-details .details_box .label {
+  font-size: 0.8rem;
+}
+.add-profile {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.form-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+.form-container button {
+  width: 100px;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-control input {
+  padding: 1rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  width: 50%;
+  font-size: 1.2rem;
+}
+.delivery-address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.delivery-address h4 {
+  width: 100%;
+}
+.delivery-address .form-control {
+  min-width: 350px;
+}
+.delivery-address .form-control input {
+  width: 100%;
+}
+.info-success {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+@media screen and (max-device-width: 400px) {
+  .form-container {
+    padding: 2rem;
+    gap: 0.5rem;
+  }
+  .form-control input {
+    width: 100%;
+  }
+  .delivery-address {
+    gap: 0.5rem;
+  }
+  .delivery-address .form-control {
+    min-width: 100%;
+  }
+  .profile-container .user-details {
+    width: auto;
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "BBQ Pizza",
+      "price": 120,
+      "sizez": [
+        {
+          "id": 1,
+          "title": "Small",
+          "price": 120
+        },
+        {
+          "id": 2,
+          "title": "Medium",
+          "price": 150
+        },
+        {
+          "id": 3,
+          "title": "Large",
+          "price": 190
+        }
+      ],
+      "addon": [
+        {
+          "title": "Spicy",
+          "amount": 0
+        },
+        {
+          "title": "Cheese",
+          "amount": 10
+        },
+        {
+          "title": "Onion",
+          "amount": 5
+        }
+      ],
+      "imageUrl": "./../assets/images/hero-img.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Onion Pizza",
+      "price": 110,
+      "sizez": [
+        {
+          "id": 1,
+          "title": "Small",
+          "price": 110
+        },
+        {
+          "id": 2,
+          "title": "Medium",
+          "price": 120
+        },
+        {
+          "id": 3,
+          "title": "Large",
+          "price": 130
+        }
+      ],
+      "addon": [
+        {
+          "title": "Spicy",
+          "amount": 0
+        },
+        {
+          "title": "Cheese",
+          "amount": 10
+        },
+        {
+          "title": "Onion",
+          "amount": 5
+        },
+        {
+          "title": "olive",
+          "amount": 5
+        }
+      ],
+      "imageUrl": "./../assets/images/hero-img.jpg"
+    }
+  ]
+}
